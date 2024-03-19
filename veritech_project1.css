@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: purple;
+    text-align: center; /* Center-align the heading */
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Styles for the company name */
+.company-info h2 {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center; /* Center-align the heading */
+}
+
+/* Styles for other headings */
+.section h2 {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center; /* Center-align the heading */
+}
+
+@media only screen and (min-width: 768px) {
+    .member {
+        display: inline-block;
+        width: 22%;
+        margin: 1%;
+        vertical-align: top;
+    }
+}
+
+/* Styles for the dotted line */
+.company-info p {
+    text-align: center; /* Center-align the short description */
+    position: relative;
+    margin-bottom: 5cqmax; /* Add space between the dotted line and the short description */
+}
+
+.company-info p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -40px; /* Adjust as needed to position the line */
+    width: 100%;
+    border-bottom: 2px dotted purple;
+}
+
+/* Adjust margin for Developer Team */
+.development-team {
+    margin-top: 50px; /* Add space between Developer Team and other teams */
+}
+
+/* Adjust margin for Sales and Marketing Team */
+.sales-marketing-team {
+    margin-top: 50px; /* Add space between Sales and Marketing Team and other teams */
+}
