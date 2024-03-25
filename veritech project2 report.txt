@@ -1,0 +1,23 @@
+VENUGOPAL RAVI
+venugirija123@gmail.com
+
+Task title:
+create a landing page  for a course introduction to showcase it to the customers.
+
+Task description :
+create a web page using html and css to showcase a course objectives.
+
+Steps taken:
+created a html page to create the structure of the web page and added styling using css
+
+Challenges faced:
+having trouble in positioning of elements.
+
+solutions implemented:
+had to refer some youtube videos for proper position of elements
+
+learnings:
+learned the art of position elements in a web page
+
+project update:
+successfully completed the project and uploaded it in gitup but having trouble in deploying my page in gitup
